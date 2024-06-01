@@ -1,0 +1,103 @@
+.main{
+    width: 100%;
+    margin-top: 72px;
+    padding-bottom: 12px;
+    overflow: hidden;
+    position: relative;
+    &__body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        &-text{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 25px;
+            &-soft{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 7px;
+                p{
+                    font-size: 32px;
+                    font-weight: 400;
+                    line-height: 32px;
+                    text-align: center;
+                    color: #868686;
+                }
+                &-line{
+                    width: 232px;
+                    height: 1px;
+                    background: #868686;
+                }
+            }
+            &-title{
+                font-size: 128px;
+                font-weight: 700;
+                line-height: 128px;
+                text-align: center;
+                z-index: 5;
+            }
+        }
+        &-cube{
+            position: absolute;
+            width: 1410px;
+            height: 900px;
+            top: -55px;
+            z-index: 10;
+            pointer-events: none;
+        }
+        &-build{
+            z-index: 11;
+            margin-top: 75px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 11px;
+            &-text{
+                font-size: 24px;
+                font-weight: 400;
+                line-height: 24px;
+                text-align: center;
+            }
+            &-btn{
+                width: 70px;
+                height: 70px;
+                background: #000;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 10px;
+                transition: all 0.5s ease;
+                svg{
+                    width: 26px;
+                    height: 20px;
+                    transition: all 0.5s ease;
+                }
+            }
+            &-btn:hover{
+                scale: 1.1;
+            }
+        }
+        &-scroll{
+            margin-top: 232px;
+            display: flex;
+            align-items: flex-start;
+            gap: 15px;
+            &-arrow{
+                height: 113px;
+                width: 10px;
+                
+            }
+            &-text{
+                font-size: 24px;
+                font-weight: 400;
+                line-height: 24px;
+                text-align: left;
+                color: #868686;
+            }
+        }
+    }
+
+}
+
