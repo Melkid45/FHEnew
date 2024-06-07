@@ -3,7 +3,7 @@
     background: #000000;
     border-radius: 450px;
     padding-top: 117px;
-    padding-bottom: 200px;
+    padding-bottom: 100px;
     &__body{
         display: flex;
         flex-direction: column;
@@ -60,6 +60,27 @@
                     margin-right: -10px;
                 }
             }
+        }
+        &-btn{
+            width: 500px;
+            height: 150px;
+            border: 1px solid white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: transparent;
+            border-radius: 50px;
+            color: #fff;
+            font-size: 48px;
+            line-height: 48px;
+            font-weight: 400;
+            text-transform: uppercase;
+            transition: all 0.5s ease;
+        }
+        &-btn:hover{
+            background: #fff;
+            border: none;
+            color: #000;
         }
     }
 }

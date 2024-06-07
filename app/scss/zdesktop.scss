@@ -337,7 +337,7 @@
         background: #000000;
         border-radius: 450rem;
         padding-top: 117rem;
-        padding-bottom: 200rem;
+        padding-bottom: 100rem;
         &__body{
             display: flex;
             flex-direction: column;
@@ -394,6 +394,22 @@
                         margin-right: -10rem;
                     }
                 }
+            }
+            &-btn{
+                width: 500rem;
+                height: 150rem;
+                border: 1rem solid white;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background: transparent;
+                border-radius: 50rem;
+                color: #fff;
+                font-size: 48rem;
+                line-height: 48rem;
+                font-weight: 400;
+                text-transform: uppercase;
+                transition: all 0.5s ease;
             }
         }
     }
